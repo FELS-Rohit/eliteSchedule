@@ -59,3 +59,7 @@ $stateProvider
 $state.go("woo.wee");
 
 ```
+
+- Added `abstract: true` in `home` state and 2 new states "my-leagues" and "myteams", and changed `otherwise` 
+- Changed `ion-view` to `ion-nav-view` and added href in home.html
+- Created 2 new child templates for `my-leagues` and `myteams` of `home`
