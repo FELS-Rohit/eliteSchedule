@@ -84,4 +84,5 @@ $state.go("woo.wee");
 - Used[card](http://ionicframework.com/docs/components/#cards) to style `game.html` and `standings.html` 
 - Toggle and Checkbox features demo
 - Button features demo
+- `$ionicPopup` service used in toggleFollow function
 
