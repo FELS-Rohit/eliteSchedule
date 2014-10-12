@@ -63,3 +63,7 @@ $state.go("woo.wee");
 - Added `abstract: true` in `home` state and 2 new states "my-leagues" and "myteams", and changed `otherwise` 
 - Changed `ion-view` to `ion-nav-view` and added href in home.html
 - Created 2 new child templates for `my-leagues` and `myteams` of `home`
+
+- Similarly, added `abstract: true` to `app` state and `ion-nav-view` in `menu-layout`as well
+- Added bunch of nested states of `app` in `app.js` and created files and folders for them
+- Added basic contents in each files and `ui-sref` in `ion-item` in `menu-layout`
