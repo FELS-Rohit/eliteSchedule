@@ -67,3 +67,4 @@ $state.go("woo.wee");
 - Similarly, added `abstract: true` to `app` state and `ion-nav-view` in `menu-layout`as well
 - Added bunch of nested states of `app` in `app.js` and created files and folders for them
 - Added basic contents in each files and `ui-sref` in `ion-item` in `menu-layout`
+- Team detail page creatation (i.e. /teams/21) with a controller `team-detail-ctrl.js`
