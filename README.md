@@ -68,3 +68,9 @@ $state.go("woo.wee");
 - Added bunch of nested states of `app` in `app.js` and created files and folders for them
 - Added basic contents in each files and `ui-sref` in `ion-item` in `menu-layout`
 - Team detail page creatation (i.e. /teams/21) with a controller `team-detail-ctrl.js`
+- Added icon for back button
+
+
+### 2
+
+- Hard coded data in `services/eliteApi.js` and created `home/leagues-ctrl` to use the data
