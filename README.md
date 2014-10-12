@@ -78,3 +78,6 @@ $state.go("woo.wee");
 - Added `locations/locations-ctrl` with its view as well
 - Added `standings-ctrl` and `teams-ctrl` with their views
 - `bower install lodash --save-dev`
+- Added `team-detail-ctrl` with lodash
+- Ionic grids [Link](http://ionicframework.com/docs/components/#grid)
+- Grid system apllied to standings and team-detail HTML
