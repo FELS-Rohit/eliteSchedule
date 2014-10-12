@@ -77,3 +77,4 @@ $state.go("woo.wee");
 - Created `home/leagues-ctrl` to use the data
 - Added `locations/locations-ctrl` with its view as well
 - Added `standings-ctrl` and `teams-ctrl` with their views
+- `bower install lodash --save-dev`
