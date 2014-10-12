@@ -82,5 +82,5 @@ $state.go("woo.wee");
 - Ionic grids [Link](http://ionicframework.com/docs/components/#grid)
 - Grid system apllied to standings and team-detail HTML
 - Used[card](http://ionicframework.com/docs/components/#cards) to style `game.html` and `standings.html` 
-
+- Toggle and Checkbox features demo
 
