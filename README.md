@@ -81,4 +81,6 @@ $state.go("woo.wee");
 - Added `team-detail-ctrl` with lodash
 - Ionic grids [Link](http://ionicframework.com/docs/components/#grid)
 - Grid system apllied to standings and team-detail HTML
-- Typography: 
+- Used[card](http://ionicframework.com/docs/components/#cards) to style `game.html` and `standings.html` 
+
+

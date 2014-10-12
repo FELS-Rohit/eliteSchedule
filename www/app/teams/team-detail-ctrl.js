@@ -36,6 +36,11 @@
                     })
                     .value();
 
+        vm.teamStanding = _.chain(data.standings)
+                           .flatten("divisionStandings")
+                           .find({"teamId" : vm.teamId})
+                           .value();
+
         function isTeamInGame(item){
           return item.teamId === vm.teamId || item.team2Id === vm.teamId;
         }
