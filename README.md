@@ -73,4 +73,7 @@ $state.go("woo.wee");
 
 ### 2
 
-- Hard coded data in `services/eliteApi.js` and created `home/leagues-ctrl` to use the data
+- Hard coded data in `services/eliteApi.js`
+- Created `home/leagues-ctrl` to use the data
+- Added `locations/locations-ctrl` with its view as well
+- Added `standings-ctrl` and `teams-ctrl` with their views
