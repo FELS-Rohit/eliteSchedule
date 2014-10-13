@@ -1,6 +1,7 @@
 ## Ionic Elite Schedule App
 
 ### 1
+
 - `ionic start eliteSchedule blank`
 - Create `www/app` folder and our own app.js inside
 - rename `starter` to `eliteApp` in index.html and delete body content 
@@ -86,3 +87,12 @@ $state.go("woo.wee");
 - Button features demo
 - `$ionicPopup` service used in toggleFollow function
 
+### 3
+
+- Use `$http` service to get data
+- Use Genymotion as emulator
+```
+ionic platform add android
+ionic build android
+ionic run android 
+```

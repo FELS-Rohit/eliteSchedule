@@ -2,7 +2,7 @@
   'use strict';
 
   angular.module('eliteApp')
-    .controller('TeamDetailCtrl', ['$stateParams', '$ionicPopup', 'eliteApi' TeamDetailCtrl]);
+    .controller('TeamDetailCtrl', ['$stateParams', '$ionicPopup', 'eliteApi', TeamDetailCtrl]);
 
       function TeamDetailCtrl($stateParams, $ionicPopup, eliteApi){
         var vm = this;
@@ -21,7 +21,7 @@
         vm.games = _.chain(data.games)
                     .filter(isTeamInGame)
                     .map(function (item) {
-                      var isTeam1 = (item.team1id === vm.teamId ? true : false;
+                      var isTeam1 = (item.team1id === vm.teamId ? true : false);
                       var opponentName = isTeam1 ? item.team2 : item.team1;
                       var scoreDisplay = getScoreDisplay(isTeam1, item.team1Score, item.team2Score);
                       return {

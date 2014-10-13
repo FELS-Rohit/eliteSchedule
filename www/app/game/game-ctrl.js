@@ -2,9 +2,9 @@
   'use strict';
 
   angular.module('eliteApp')
-    .controller('leaguesCtrl', ['$stateParams', 'eliteApi', leaguesCtrl]);
+    .controller('GamesCtrl', ['$stateParams', 'eliteApi', GamesCtrl]);
 
-      function leaguesCtrl($stateParams, eliteApi){
+      function GamesCtrl($stateParams, eliteApi){
         var vm = this;
 
         var gameId = Number($stateParams.id);
