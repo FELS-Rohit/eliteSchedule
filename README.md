@@ -113,4 +113,7 @@ bower install angular-cache --save-dev
 ```
 bower install angular-google-maps --save-dev
 ```
-- added CSS
+- Added CSS
+- Created `location-map.html` and `location-map-ctrl.js`
+- Added marker on Map
+- `vm.locationClicked` function added (works on device, not on browser)

@@ -6,10 +6,8 @@
 
       function eliteApi($http, $q, $ionicLoading, DSCacheFactory){
         
-        // var currentLeagueId;
-
         self.leaguesCache = DSCacheFactory.get("leaguesCache");
-        self.leaguesDataCache = DSCacheFactory.get("leagueDataCache");
+        self.leagueDataCache = DSCacheFactory.get("leagueDataCache");
 
         self.leaguesCache.setOptions({
           onExpire: function(key, value){
@@ -100,10 +98,6 @@
           return deferred.promise;
 
         }
-
-        // function setLeagueId(leagueId){
-        //   currentLeagueId = leagueId;
-        // }
 
         return {
           getLeagues: getLeagues,

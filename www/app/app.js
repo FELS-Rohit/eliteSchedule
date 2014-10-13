@@ -1,9 +1,7 @@
-angular.module('eliteApp', ['ionic', 'angular-data.DSCacheFactory', 'google-maps'])
+angular.module('eliteApp', ['ionic', 'angular-data.DSCacheFactory', 'google-maps'.ns()])
 
 .run(function($ionicPlatform, DSCacheFactory) {
   $ionicPlatform.ready(function() {
-    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-    // for form inputs)
     if(window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
@@ -102,6 +100,15 @@ angular.module('eliteApp', ['ionic', 'angular-data.DSCacheFactory', 'google-maps
       views: {
         "mainContent": {
           templateUrl: 'app/rules/rules.html'
+        }
+      }
+    })
+
+    .state('app.location-map', {
+      url: '/location-map/:id',
+      views: {
+        "mainContent": {
+          templateUrl: 'app/locations/location-map.html'
         }
       }
     });
