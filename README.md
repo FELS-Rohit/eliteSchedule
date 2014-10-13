@@ -106,3 +106,4 @@ bower install angular-cache --save-dev
 - Automatically cached otherwise use the old cached data
 - Caching logic setting up
 - Created `myTeamService` and `my-teams-ctrl` and `myteams.html`
+- Pull to refresh function implemented
