@@ -97,3 +97,9 @@ ionic build android
 ionic run android 
 ```
 - Use `$q` and Promise 
+- Use `$ionicLoading` to show message while loading the data
+- [Angular-cache](http://angular-data.pseudobry.com/documentation/api/angular-cache/angular-cache) replacement for $cacheFactory
+```
+bower install angular-cache --save-dev
+```
+- Setup `DSCacheFactory` in `app.js`
