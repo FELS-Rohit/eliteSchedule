@@ -2,12 +2,12 @@
   'use strict';
 
   angular.module('eliteApp')
-    .controller('leaguesCtrl', ['$state', 'eliteApi', leaguesCtrl]);
+    .controller('LeaguesCtrl', ['$state', 'eliteApi', LeaguesCtrl]);
 
-      function leaguesCtrl($state, eliteApi){
+      function LeaguesCtrl($state, eliteApi){
         var vm = this;
 
-        eliteApi.getLeagues(function(data){
+        eliteApi.getLeagues().then(function(data){
           vm.leagues = data;
         });
 

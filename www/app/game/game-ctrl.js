@@ -8,8 +8,8 @@
         var vm = this;
 
         var gameId = Number($stateParams.id);
-        var data = eliteApi.getLeagueData();
-        vm.game = _.find(data.games, {"id": gameId});
-
+        eliteApi.getLeagueData().then(function(data){
+          vm.game = _.find(data.games, {"id": gameId});
+        });
       };
 })();

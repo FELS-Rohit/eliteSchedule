@@ -6,7 +6,8 @@
 
       function StandingsCtrl(eliteApi){
         var vm = this;
-        var data = eliteApi.getLeagueData();
-        vm.teams = data.standings;
+        eliteApi.getLeagueData().then(function(data){
+          vm.teams = data.standings;
+        });
       };
 })();
