@@ -103,3 +103,6 @@ ionic run android
 bower install angular-cache --save-dev
 ```
 - Setup `DSCacheFactory` in `app.js`
+- Automatically cached otherwise use the old cached data
+- Caching logic setting up
+- Created `myTeamService` and `my-teams-ctrl` and `myteams.html`
