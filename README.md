@@ -1,6 +1,6 @@
 ## Ionic Elite Schedule App
 
-### 1
+### 1 Navigation and Routing
 
 - `ionic start eliteSchedule blank`
 - Create `www/app` folder and our own app.js inside
@@ -72,7 +72,7 @@ $state.go("woo.wee");
 - Added icon for back button
 
 
-### 2
+### 2 Ionic Components
 
 - Hard coded data in `services/eliteApi.js`
 - Created `home/leagues-ctrl` to use the data
@@ -87,7 +87,7 @@ $state.go("woo.wee");
 - Button features demo
 - `$ionicPopup` service used in toggleFollow function
 
-### 3
+### 3 Data and caching
 
 - Use `$http` service to get data
 - Use Genymotion as emulator
@@ -107,3 +107,10 @@ bower install angular-cache --save-dev
 - Caching logic setting up
 - Created `myTeamService` and `my-teams-ctrl` and `myteams.html`
 - Pull to refresh function implemented
+
+### 4 Map
+- [Google maps for Angular](https://angular-ui.github.io/angular-google-maps/#!/)
+```
+bower install angular-google-maps --save-dev
+```
+- added CSS
